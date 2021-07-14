@@ -1,4 +1,4 @@
-# Recurrent-Neural-Network---Bitcoin-Price-Prediction
+# Recurrent Neural Network - Bitcoin Price Prediction
 
 ## What is time series forecasting
 A time series is a series of data indexed in time order. It usually describes a sequence taken at successive equally spaced points in time. The order of the data matters and cannot be shuffled. Examples include stock price, temperature records and hormone cycles. 
