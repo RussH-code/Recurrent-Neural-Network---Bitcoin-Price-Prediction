@@ -9,6 +9,8 @@ Time series forecasting involves taking models fit on historical data and using 
 
 ![](https://github.com/RussH-code/Recurrent-Neural-Network---Bitcoin-Price-Prediction/blob/main/RNN.png)
 
+Source: <a href="https://en.wikipedia.org/wiki/Recurrent_neural_network">Recurrent Neural Network - Wikipedia</a>
+
 For time series predictions, we use the recurrent neural netowrk. RNN contains cycles that feed the network activations from a previous time steps as inputs to the network to influence predictions at the current time steps. These activations are stored as internal states. Classical RNN, however, suffers from vanishing/exploding (or both) gradient problem and fail to learn in the presence of time lags greater than 5 -10 discrete time steps. The influence of an input either decays or explodes exponentially as it cycles through the network. 
 
 #### - LSTM
