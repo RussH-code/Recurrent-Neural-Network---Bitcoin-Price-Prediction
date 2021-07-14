@@ -27,4 +27,13 @@ An improved model - "Long Short-Term Memory" (LSTM) was designed to solve this p
 ## Processing Time Series Data
 Given a time series data, how do we generate features (x) and labels (y)? Here we use the sliding window technique. We determine a set sequence length for each inputs (e.g. 10). Then we use data at time x till time x + 10 to predict data at time x + 11. The following figure summarises the procedure.
 
+![](https://github.com/RussH-code/Recurrent-Neural-Network---Bitcoin-Price-Prediction/blob/main/sliding%20window.PNG)
+
+Source: https://eng.uber.com/omphalos/
+
+---
+References:
+1. https://wiki.pathmind.com/lstm
+2. https://github.com/curiousily/Deep-Learning-For-Hackers
+
 
