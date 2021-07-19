@@ -9,7 +9,7 @@ Time series forecasting involves taking models fit on historical data and using 
 
 ![](https://github.com/RussH-code/Recurrent-Neural-Network---Bitcoin-Price-Prediction/blob/main/RNN.png)
 
-Source: <a href="https://en.wikipedia.org/wiki/Recurrent_neural_network">Recurrent Neural Network - Wikipedia</a>
+Photo: <a href="https://en.wikipedia.org/wiki/Recurrent_neural_network">Recurrent Neural Network - Wikipedia</a>
 
 For time series predictions, we use the recurrent neural netowrk. RNN contains cycles that feed the network activations from a previous time steps as inputs to the network to influence predictions at the current time steps. These activations are stored as internal states. Classical RNN, however, suffers from vanishing/exploding (or both) gradient problem. During gradient update, the weight is updated as such:
 
@@ -20,7 +20,7 @@ So layers that receive small gradient update does not learn, and those that reci
 #### - LSTM
 ![](https://github.com/RussH-code/Recurrent-Neural-Network---Bitcoin-Price-Prediction/blob/main/LSTM.png)
 
-Source: Colah's blog - <a href="https://colah.github.io/posts/2015-08-Understanding-LSTMs/">Understanding LSTM Networks</a>
+Photo: Colah's blog - <a href="https://colah.github.io/posts/2015-08-Understanding-LSTMs/">Understanding LSTM Networks</a>
 
 An improved model - "Long Short-Term Memory" (LSTM) was designed to solve this problem. What makes LSTM special is its cell state and gates. The cell state acts like the memory of the network, and transfers information down the sequence chain. This allows information from earlier time steps to reach later time steps, and reduce effect of short-term memory. Gates control what information to keep or forget by learning the relevant information. This is achieved by activation function. A sigmoid activation squishes values between 0 (forgotten) and 1 (kept), this helps update the states.
 
@@ -29,7 +29,7 @@ Given a time series data, how do we generate features (x) and labels (y)? Here w
 
 ![](https://github.com/RussH-code/Recurrent-Neural-Network---Bitcoin-Price-Prediction/blob/main/sliding%20window.PNG)
 
-Source: https://eng.uber.com/omphalos/
+Photo: https://eng.uber.com/omphalos/
 
 ---
 References:
